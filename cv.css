@@ -37,7 +37,7 @@ body{
      .contact-details{
         color:white;
         background-color:rgba(0,0,0,0.9);
-        text-align:center ;
+        text-align:justify;
         line-height:25px;
         font-size: 14px;
         padding :35px 2px 2px 1px ;
@@ -49,8 +49,8 @@ body{
             color:black;
             background-color:#ffffff;
             text-align:left ;
-            line-height:30Spx;
-            padding :20px 2px 2px 2px ;
+            line-height:30px;
+            padding :20px 1px 2px 1px ;
             
               }
             
@@ -59,7 +59,7 @@ hr{border:1px solid black;
 
    .skills-info{
     display:grid;
-    grid-template-columns: auto auto auto auto ;
+    grid-template-columns: auto auto auto;
     grid-gap:2px;
     align-content: center;
     padding:1px;
