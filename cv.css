@@ -40,6 +40,7 @@ body{
         text-align:center;
         line-height:28px;
         font-size: 10px;
+        box-sizing: border-box;
         padding :40px 2px 5px 1px ;
         
           }
@@ -51,6 +52,7 @@ body{
             text-align:justify ;
             line-height:30px;
             padding :20px 3px 2px 1px ;
+            box-sizing: border-box;
             
               }
             
@@ -60,7 +62,7 @@ hr{border:1px solid black;
    .skills-info{
     display:grid;
     grid-template-columns: auto auto auto;
-    grid-gap:2px;
+    grid-gap:5px;
     align-content: center;
     padding:1px;
     background-color:white;
@@ -91,15 +93,17 @@ hr{border:1px solid black;
  
 
  @media only screen and (min-width :768px){  /* LANDSCAPE TABLETS, LAPTOPS, DESKTOPS*/
-    body{ padding:0px; font-size: 17px;}
-   .cv-container{border:1px solid grey; padding:0px; grid-template-columns:22% 78%;}
+    body{  }
+   .cv-container{border:1px solid grey; padding:0px; }
                      }
 
                      @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
                         body{padding:0px 0px; font-size: 16px;}
-                        .cv-container{border:1px solid grey; padding:0px;}
-                        
-                       
+                        .cv-container{border:1px solid grey; padding:0px;font-size: 18px; grid-template-columns:22% 78%;}
+                        .skills-info{
+                                      display:grid;
+                                      grid-template-columns: auto auto auto auto;
+                                      }
                                          }
                                          @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
                                          
