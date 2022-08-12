@@ -94,9 +94,22 @@ hr{border:1px solid black;
  
 
  @media only screen and (min-width :768px){  /* LANDSCAPE TABLETS, LAPTOPS, DESKTOPS*/
-    body{  }
-   .cv-container{border:1px solid grey; padding:0px; }
-                     }
+                                      body{padding:0px 150px; font-size: 16px;}
+                                      .cv-container{border:1px solid grey; padding:0px;font-size: 18px; grid-template-columns:22% 78%;}
+                                      .contact-details{
+                                                        font-size: 15px;
+                                                       }
+                                      .profile-details{
+                                                       font-size: 18px;
+                                                      }
+
+                                      .skills-info{
+                                                   display:grid;
+                                                   grid-template-columns: auto auto auto auto;
+                                                   }
+                                                }
+   
+                  
 
                      @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
                         body{padding:0px 150px; font-size: 16px;}
@@ -114,6 +127,7 @@ hr{border:1px solid black;
                                       }
                                          }
                                          @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
+                                          h5.name{font-size: 17px;}
                                           p.email{font-size: 7px;}
                                           .spredsht{grid-column: 2/span 2;}  
                                           }
