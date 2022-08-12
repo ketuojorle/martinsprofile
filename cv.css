@@ -95,7 +95,7 @@ hr{border:1px solid black;
                      }
 
                      @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
-                        body{padding:0px 115px; font-size: 17px;}
+                        body{padding:0px 0px; font-size: 16px;}
                         .cv-container{border:1px solid grey; padding:0px;}
                         
                        
