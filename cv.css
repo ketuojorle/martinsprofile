@@ -81,7 +81,7 @@ hr{border:1px solid black;
     box-shadow:0px 0px 2px 2px rgba(50, 50,50,0.8);
     border:2px solid white;
        }
-  .spredsht{grid-column: 2/span 2;}  
+   
   a{text-decoration: none;
     color:black;
 
@@ -98,15 +98,22 @@ hr{border:1px solid black;
                      }
 
                      @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
-                        body{padding:0px 0px; font-size: 16px;}
+                        body{padding:0px 150px; font-size: 16px;}
                         .cv-container{border:1px solid grey; padding:0px;font-size: 18px; grid-template-columns:22% 78%;}
+                        .contact-details{
+                                         font-size: 15px;
+                                         }
+                        .profile-details{
+                                         font-size: 18px;
+                                        }
+
                         .skills-info{
                                       display:grid;
                                       grid-template-columns: auto auto auto auto;
                                       }
                                          }
                                          @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
-                                         
+                                          .spredsht{grid-column: 2/span 2;}  
                                           }
                                                             
                                                                        
