@@ -26,7 +26,7 @@ body{
    margin :0px;
    background-color:#ffffff;
    display:grid ;
-   grid-template-columns:22% 78%;
+   grid-template-columns:30% 70%;
    border:1px solid grey;
    border-radius:3px;
    padding:0px 10px 0px 0px;
@@ -90,7 +90,7 @@ hr{border:1px solid black;
 
  @media only screen and (min-width :768px){  /* LANDSCAPE TABLETS, LAPTOPS, DESKTOPS*/
     body{ padding:0px 115px; font-size: 17px;}
-   .cv-container{border:1px solid grey; padding:0px;}
+   .cv-container{border:1px solid grey; padding:0px; grid-template-columns:22% 78%;}
                      }
 
                      @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
