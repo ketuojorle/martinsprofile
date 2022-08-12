@@ -27,7 +27,7 @@ body{
    
    background-color:#ffffff;
    display:grid ;
-   grid-template-columns:33% 67%;
+   grid-template-columns:35% 65%;
    border:1px solid grey;
    border-radius:3px;
    padding:0px 0px 0px 0px;
@@ -37,18 +37,18 @@ body{
      .contact-details{
         color:white;
         background-color:rgba(0,0,0,0.9);
-        text-align:justify;
-        line-height:25px;
+        text-align:center;
+        line-height:28px;
         font-size: 14px;
-        padding :35px 2px 2px 1px ;
+        padding :35px 2px 5px 1px ;
         
           }
 
           .profile-details{
-            font-size: 16px;
+            font-size: 14px;
             color:black;
             background-color:#ffffff;
-            text-align:left ;
+            text-align:justify ;
             line-height:30px;
             padding :20px 1px 2px 1px ;
             
