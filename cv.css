@@ -104,7 +104,7 @@ hr{border:1px solid black;
                                                       }
 
                                       .skills-info{
-                                                   display:grid;
+                                                   gap:10px;
                                                    grid-template-columns: auto auto auto auto;
                                                    }
                                                 }
@@ -122,13 +122,14 @@ hr{border:1px solid black;
                                         }
 
                         .skills-info{
-                                      display:grid;
+                                      
                                       grid-template-columns: auto auto auto auto;
                                       }
                                          }
                                          @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
                                           h5.name{font-size: 17px;}
                                           p.email{font-size: 7px;}
+                                          
                                           .spredsht{grid-column: 2/span 2;}  
                                           }
                                                             
