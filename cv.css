@@ -104,7 +104,7 @@ hr{border:1px solid black;
                                                       }
 
                                       .skills-info{
-                                                   gap:10px;
+                                                   gap:25px;
                                                    grid-template-columns: auto auto auto auto;
                                                    }
                                                 }
@@ -122,7 +122,7 @@ hr{border:1px solid black;
                                         }
 
                         .skills-info{
-                                      
+                                      gap:25px;
                                       grid-template-columns: auto auto auto auto;
                                       }
                                          }
