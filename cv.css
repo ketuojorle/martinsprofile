@@ -8,7 +8,9 @@ url("https://fonts.googleapis.com/css?family=Raleway");
 url("https://fonts.googleapis.com/css?family=Montserrat");
 
 
-
+*{
+   box-sizing: border-box;
+}
 
 body{
     margin:0px;
@@ -24,64 +26,93 @@ body{
    
   .cv-container{
    width:100%;
-   margin :auto;
-   gap: 10px;
+   position: fixed;
+   margin :0;
    background-color:#ffffff;
-   display:grid ;
-   grid-template-columns:35% 65%;
-   border:1px solid grey;
-   border-radius:3px;
-   padding:0px 0px 0px 0px;
+   display:flex ;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   border:0px solid grey;
+   border-radius:0px;
+   padding:0px 0px;
    
      }
 
-     .contact-details{
-        color:white;
-        background-color:rgba(0,0,0,0.9);
-        text-align:center;
-        line-height:28px;
-        font-size: 10px;
-        box-sizing: border-box;
-        padding :40px 2px 5px 1px ;
-        
-          }
-
           .profile-details{
+            width: 98%;
             font-size: 12px;
             color:black;
             background-color:#ffffff;
-            text-align:left;
-            line-height:23px;
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            text-align:left;          
             padding :20px 3px 2px 2px ;
             box-sizing: border-box;
+            box-shadow: 2px 0px 2px 0 rgba(223, 217, 217, 0.7),
+                        -2px 0px 2px 0 rgba(223, 217, 217, 0.7),
+                        0px 2px 2px 0 rgba(223, 217, 217, 0.7);
             
               }
+   
+img.passport{
+   width:100px;
+   height:100px;
+   float:left;
+   border-radius:50%;
+   top:1%;
+   position:absolute;
+}
+
+ .boxElem{
+   width: 96%;
+   position: relative;
+   margin:auto;
+   padding:0px 10px 5px;
+   font-family: montserrat;
+   font-weight: lighter;
+   font-size: 16px;
+   line-height:23px;
+   text-align: justify;
+   box-shadow: 2px 0px 4px 0 rgba(0,0,0,0.7),
+   -2px 0px 4px 0 rgba(0,0,0,0.7),
+   0px 2px 4px 0 rgba(0,0,0,0.7);
+   
+
+
+ }
             
 hr{border:1px solid black;
    }
 
    .skills-info{
+    width: 90%;
+    position:relative;
+    margin: auto;
     display:grid;
-    grid-template-columns: auto auto auto;
-    grid-gap:5px;
-    align-content: center;
-    box-sizing: border-box;
-    padding:1px;
+    grid-template-columns:23% 23% 23% 23%;
+    gap:2px;
+    justify-content: space-evenly;
+    align-items: center;
     background-color:white;
     border:1px solid grey;
     border-radius: 5px;
-    justify-content:center;
  }
    
  .skills-info >div,button{
-    
+    width: 100%;
+    height: 50px;
     color:white;
-    background-color:steelblue;
-    font-size:12px;
+    background-color:black;
+    font-size:14px;
     text-align: center;
-    padding:1px;
-    box-shadow:0px 0px 2px 2px rgba(50, 50,50,0.8);
-    border:2px solid white;
+    padding: 5px 3px ;
+    border:2px solid grey;
+    border-radius: 4px;
        }
    
   a{text-decoration: none;
@@ -93,44 +124,58 @@ hr{border:1px solid black;
       cursor: pointer;
    }
  
+img.SpinWheel{
+   width:350px;
+   height: 350px;
+   margin:auto;
+   transform: translateX(50%);
+
+}
+
+img.EbuDiaquizImage{
+   width:350px;
+   height: 200px;
+   margin:auto;
+   transform: translateX(50%);
+
+}
+
+
+figure{
+   font-family: montserrat;
+   font-weight: lighter;
+   padding:25px 0px;
+}
+
+input[type=button]{
+   background-color: black;
+   color: white;
+   border-radius: 50px;
+   padding: 5px 20px;
+   box-shadow: 4px 4px 8px 0 rgba(126, 124, 124, 0.7),
+   2px 2px 4px 0 rgba(126, 124, 124, 1.0);
+}
+     
 
  @media only screen and (min-width :768px){  /* LANDSCAPE TABLETS, LAPTOPS, DESKTOPS*/
-                                      body{padding:0px 150px; font-size: 16px;}
-                                      .cv-container{border:1px solid grey; padding:0px;font-size: 18px; grid-template-columns:22% 78%;}
-                                      .contact-details{
-                                                        font-size: 15px;
-                                                       }
-                                      .profile-details{
-                                                       font-size: 18px;
-                                                      }
-
-                                      .skills-info{
-                                                   gap:25px;                                           
-                                                   }
-                                                }
-   
-                  
-
-                     @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
-                        body{padding:0px 150px; font-size: 16px;}
-                        .cv-container{border:1px solid grey; padding:0px;font-size: 18px; grid-template-columns:22% 78%;}
-                        .contact-details{
-                                         font-size: 15px;
-                                         }
-                        .profile-details{
-                                         font-size: 18px;
-                                        }
-
-                        .skills-info{
-                                      gap:25px;
-                                 
+                         body{padding:0px 200px; overflow-y: auto;}
+                        .cv-container{position:relative; border:1px solid grey; padding:0px 0px;font-size: 18px; }                       
+                        .profile-details{font-size: 18px;}                                       
+                        .skills-info{gap:10px;}
+                                                                      
                                       }
-                                         }
-                                         @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
-                                          h5.name{font-size: 17px;}
-                                          p.email{font-size: 7px;}
-                                         
-                                          }
+ 
+                     @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
+                        body{padding:0px 200px; overflow-y: auto;}
+                        .cv-container{position:relative; border:0px solid grey; padding:0px 0px;font-size: 18px; }                       
+                        .profile-details{font-size: 18px;}                                       
+                        .skills-info{gap:10px;}
+                                               }
+                                  
+                     @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
+                        
+                           }    
+                                          
                                                             
                                                                        
                                                              
