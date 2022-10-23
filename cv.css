@@ -183,7 +183,9 @@ input[type=button]{
                                                }
                                   
                      @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
-                        img.passport{width:50px; height:50px; }
+                        img.profile-passport{width:50px; height:50px; }
+                        .skills-info{
+                           grid-template-columns:45% 45% ;}
                            }    
                                           
                                                             
