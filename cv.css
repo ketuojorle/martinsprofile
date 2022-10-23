@@ -75,6 +75,7 @@ img.profile-passport{
    width: 96%;
    position: relative;
    margin:auto;
+   box-sizing: border-box;
    padding:0px 5px 3px;
    font-family: montserrat;
    font-weight: lighter;
