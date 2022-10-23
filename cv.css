@@ -29,7 +29,6 @@ body{
    height: 100%;
    position: fixed;
    margin :0;
-   overflow-x: auto;
    background-color:#ffffff;
    display:flex ;
    flex-direction: column;
@@ -45,6 +44,7 @@ body{
           .profile-details{
             width: 98%;
             font-size: 12px;
+            overflow-x: auto;
             color:black;
             background-color:#ffffff;
             display: grid;
@@ -61,13 +61,13 @@ body{
             
               }
    
-img.passport{
+img.profile-passport{
    width:100px;
    height:100px;
    float:left;
    border-radius:50%;
-   top:1%;
-   position:absolute;
+   margin-top:10px;
+   position:relative;
    
 }
 
@@ -126,11 +126,17 @@ hr{border:1px solid black;
    a:hover{
       cursor: pointer;
    }
- 
+ .image-container{
+   width:80%;
+   margin:auto;
+   position: relative;
+}
+
 img.SpinWheel{
    width:350px;
    height: 350px;
    margin:auto;
+   transform: translateX(30%);
    
 
 }
@@ -139,6 +145,7 @@ img.EbuDiaquizImage{
    width:350px;
    height: 200px;
    margin:auto;
+   transform: translateX(30%);
 
 }
 
@@ -146,7 +153,7 @@ img.EbuDiaquizImage{
 figure{
    font-family: montserrat;
    font-weight: lighter;
-   padding:25px 0px;
+   padding:15px 0px;
   
 }
 
