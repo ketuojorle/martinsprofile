@@ -26,8 +26,10 @@ body{
    
   .cv-container{
    width:100%;
+   height: 100%;
    position: fixed;
    margin :0;
+   overflow-y: auto;
    background-color:#ffffff;
    display:flex ;
    flex-direction: column;
@@ -42,7 +44,6 @@ body{
 
           .profile-details{
             width: 98%;
-            overflow-x: auto;
             font-size: 12px;
             color:black;
             background-color:#ffffff;
@@ -160,7 +161,7 @@ input[type=button]{
      
 
  @media only screen and (min-width :768px){  /* LANDSCAPE TABLETS, LAPTOPS, DESKTOPS*/
-                         body{padding:0px 200px; overflow-y: auto;}
+                         body{padding:0px 200px;}
                         .cv-container{position:relative; border:1px solid grey; padding:0px 0px;font-size: 18px; }                       
                         .profile-details{font-size: 18px;}                                       
                         .skills-info{gap:10px;}
@@ -168,14 +169,13 @@ input[type=button]{
                                       }
  
                      @media only screen and (min-width :600px){  /* FOR LARGE PHONES AND TABLETS */
-                        body{padding:0px 200px; overflow-y: auto;}
+                        body{padding:0px 200px;}
                         .cv-container{position:relative; border:0px solid grey; padding:0px 0px;font-size: 18px; }                       
                         .profile-details{font-size: 18px;}                                       
                         .skills-info{gap:10px;}
                                                }
                                   
                      @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
-                       /* .profile-details{overflow-x: auto;} */
                         img.passport{width:50px; height:50px; }
                            }    
                                           
