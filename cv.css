@@ -66,7 +66,7 @@ img.passport{
    border-radius:50%;
    top:1%;
    position:absolute;
-   z-index: -1;
+   
 }
 
  .boxElem{
@@ -175,6 +175,7 @@ input[type=button]{
                                   
                      @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
                         .profile-details{overflow-y: auto;}
+                        img.passport{width:50px; height:50px; }
                            }    
                                           
                                                             
