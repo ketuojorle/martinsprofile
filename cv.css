@@ -29,7 +29,7 @@ body{
    height: 100%;
    position: fixed;
    margin :0;
-   overflow-y: auto;
+   overflow-x: auto;
    background-color:#ffffff;
    display:flex ;
    flex-direction: column;
