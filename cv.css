@@ -187,8 +187,7 @@ input[type=button]{
                                                }
                                   
                      @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
-                        .profile-details{}
-                        .boxElem{padding:0px 5px 3px 15px;}                         
+                        .boxElem{padding:0px 8px 3px 20px;}                         
                         img.profile-passport{width:50px; height:50px; }
                         .skills-info{
                            grid-template-columns:45% 45% ;}
