@@ -170,7 +170,9 @@ input[type=button]{
    2px 2px 4px 0 rgba(126, 124, 124, 1.0);
 }
      
-
+a{
+   text-decoration: nonoe;
+}
  @media only screen and (min-width :768px){  /* LANDSCAPE TABLETS, LAPTOPS, DESKTOPS*/
                          body{padding:0px 200px;}
                         .cv-container{position:relative; border:1px solid grey; padding:0px 0px;font-size: 18px; }                       
