@@ -28,7 +28,6 @@ body{
    width:100%;
    position: fixed;
    margin :0;
-   overflow-y: auto;
    background-color:#ffffff;
    display:flex ;
    flex-direction: column;
@@ -175,7 +174,7 @@ input[type=button]{
                                                }
                                   
                      @media only screen and (max-width :600px){  /*FOR SMALL SCREEN PHONES */
-                        
+                        .profile-details{overflow-y: auto;}
                            }    
                                           
                                                             
