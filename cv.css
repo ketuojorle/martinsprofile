@@ -131,7 +131,7 @@ img.SpinWheel{
    width:350px;
    height: 350px;
    margin:auto;
-   transform: translateX(50%);
+   
 
 }
 
@@ -139,7 +139,6 @@ img.EbuDiaquizImage{
    width:350px;
    height: 200px;
    margin:auto;
-   transform: translateX(50%);
 
 }
 
@@ -148,8 +147,7 @@ figure{
    font-family: montserrat;
    font-weight: lighter;
    padding:25px 0px;
-   position: fixed;
-   margin: auto;
+  
 }
 
 input[type=button]{
