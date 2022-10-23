@@ -44,7 +44,7 @@ body{
           .profile-details{
             width: 98%;
             font-size: 12px;
-            overflow-x: auto;
+            overflow-y: auto;
             color:black;
             background-color:#ffffff;
             display: grid;
@@ -136,7 +136,7 @@ img.SpinWheel{
    width:350px;
    height: 350px;
    margin:auto;
-   transform: translateX(30%);
+   
    
 
 }
@@ -145,7 +145,7 @@ img.EbuDiaquizImage{
    width:350px;
    height: 200px;
    margin:auto;
-   transform: translateX(30%);
+  
 
 }
 
